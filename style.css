@@ -1,0 +1,65 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0px;
+}
+div{
+    position: relative;
+}
+article.landing{
+    display: inline-block;
+    size: 50%;
+    height: 100vh;
+    width: 49%;
+    background-color: #E6E6E6;
+}
+article.landing>h2{
+    font-size: 3em;
+    margin-left: 15%;
+    margin-top: 10px;
+}
+article.landing>h1{
+    margin-left: 15%;
+    font-size: 6em;
+    width: 900px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+article.landing>p{
+    font-size: 1.2em;
+    margin-left: 15%;
+}
+.botão{
+    background-image: linear-gradient(to right, #9F09F5,#1140D6);
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 0.7em;
+    color: white;
+    padding:5px 5px 5px 10px;
+}
+article.landing2{
+    color: white;
+    display: inline-block;
+    position: absolute;
+    size: 50%;
+    height: 100vh;
+    width: 49%;
+    background-image: url(fundoinicial.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.landing2>a{
+    display: inline-block;
+    font-size: medium;
+    padding-right: 20px;
+    margin-left: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+.landing2>a:hover{
+    text-decoration: underline;
+}
